@@ -1,4 +1,4 @@
-[0x03. Responsive design](https://github.com/ronroeandassociates/assets/blob/master/images/0x03-responsive_design_banner.png)
+![0x03. Responsive design](https://github.com/ronroeandassociates/assets/blob/master/images/0x03-responsive_design_banner.png)
 
 # 0x03. Responsive design
 
