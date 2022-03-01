@@ -1,1 +1,9 @@
-/* My style */
+/* color variable */
+$text: #3d3d3d;
+body {
+  color: $text;
+}
+
+p {
+  color: $text;
+}
