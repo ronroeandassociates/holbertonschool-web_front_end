@@ -1,9 +1,16 @@
-/* color variable */
+/* Colors */
 $text: #3d3d3d;
+$color: #6d6d6d;
+
 body {
   color: $text;
+  background-color: $color;
 }
 
 p {
   color: $text;
+}
+
+h2 {
+  background-color: $color;
 }
