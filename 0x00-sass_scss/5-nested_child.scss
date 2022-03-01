@@ -1,1 +1,8 @@
-/* My style */
+/* Nested child */
+body {
+  color: #3d3d3d;
+
+  > .red {
+    color: #ff0000;
+  }
+}
