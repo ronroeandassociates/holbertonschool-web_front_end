@@ -1,4 +1,4 @@
-![0x01-JQuery_advanced]()
+![0x01-JQuery_advanced_banner](https://github.com/ronroeandassociates/assets/blob/master/images/0x01-JQuery_advanced_banner.png)
 
 # 0x01. jQuery advanced
 
