@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+  </head>
+  <body>
+    <h1>Login to the website</h1>
+    <script type="application/javascript">
+      function setCookies() {
+        // 10 days = 240 Hrs = 240*60*60 = 864000
+        let expires = " max-age=864000; path=/"
+        let fname = document.getElementById("firstname").value
+        document.cookie = "firstname=" + fname + ";" + expires
+        let email = document.getElementById("email").value
+        document.cookie = "email=" + email + ";" + expires
+      }
+
+      function showCookies() {
+        let cookie = document.cookie
+        let body = document.body
+        let paragraph = document.createElement("P")
+        paragraph.appendChild(document.createTextNode("Cookies: " + cookie))
+        body.appendChild(paragraph)
+      }
+    </script>
+    <input type="text" id="firstname" placeholder="Firstname" />
+    <input type="email" id="email" placeholder="Email" />
+    <button onclick="setCookies()" id="login-btn">Log me in</button>
+    <h1>Cookies</h1>
+    <button onclick="showCookies()" id="cookie-btn">Show the cookies</button>
+  </body>
+</html>
